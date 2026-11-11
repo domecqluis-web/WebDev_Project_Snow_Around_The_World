@@ -1,0 +1,140 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 200px;
+    text-align: center;
+    font-style: bold;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 28px;
+    text-align: left;
+}
+
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1;
+}
+p {
+        background-color: darkblue;
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+    }
+h2 {
+        background-color: darkblue;
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+    }
+/* Container for the three cards */
+.cards-container {
+    display: flex;
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+/* Individual cards */
+.info-card {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+}
+
+/* Card titles */
+.info-card summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Text inside the cards */
+.info-card p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #142C43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+/* Website logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Individual links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #00BFFF;
+}
+/* Background video */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
